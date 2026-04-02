@@ -28,21 +28,42 @@ const Contact = () => {
               Github <MdArrowOutward />
             </a>
             <a
-              href="https://linkedin.com/in/vikas-kumar"
+              href="https://www.linkedin.com/in/vikas-kumar-536bb428a"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
             >
               Linkedin <MdArrowOutward />
             </a>
+            <a
+              href="https://leetcode.com/u/Vikas_Kumar11/"
+              target="_blank"
+              data-cursor="disable"
+              className="contact-social"
+            >
+              LeetCode <MdArrowOutward />
+            </a>
+            <a
+              href="https://codeforces.com/profile/Vikassssssssss"
+              target="_blank"
+              data-cursor="disable"
+              className="contact-social"
+            >
+              Codeforces <MdArrowOutward />
+            </a>
+            <a
+              href="https://www.codechef.com/users/vikumar_16"
+              target="_blank"
+              data-cursor="disable"
+              className="contact-social"
+            >
+              CodeChef <MdArrowOutward />
+            </a>
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Vikas Kumar</span>
+              <MdCopyright /> 2026 <span>Vikas Kumar</span>
             </h2>
-            <h5>
-              <MdCopyright /> 2026
-            </h5>
           </div>
         </div>
       </div>
