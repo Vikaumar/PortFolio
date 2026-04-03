@@ -5,11 +5,11 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Prescripto",
-    category: "Full-Stack Web App",
-    tools: "JavaScript, Node.js, React",
-    image: "/images/projects/prescripto.png",
-    link: "https://github.com/Vikaumar/Prescripto",
+    title: "Edura",
+    category: "Gamified Learning Platform",
+    tools: "Spring Boot, HTML/CSS/JS, Gemini API",
+    image: "/images/projects/edura.png",
+    link: "https://github.com/Vikaumar/Edura.LearningApp",
   },
   {
     title: "Delicia",
@@ -19,11 +19,18 @@ const projects = [
     link: "https://github.com/Vikaumar/Delicia",
   },
   {
-    title: "Notely",
-    category: "Notes & Bookmarks Manager",
-    tools: "JavaScript, React, Vercel",
-    image: "/images/projects/notely.png",
-    link: "https://github.com/Vikaumar/Notely-Notes-BookmarksManager",
+    title: "Prescripto",
+    category: "Full-Stack Web App",
+    tools: "JavaScript, Node.js, React",
+    image: "/images/projects/prescripto.png",
+    link: "https://github.com/Vikaumar/Prescripto",
+  },
+  {
+    title: "VidhyaSetu",
+    category: "Smart Education Platform",
+    tools: "MERN, OpenAI, Python, JWT",
+    image: "/images/projects/vidhyasetu.png",
+    link: "https://github.com/Vikaumar/VidhyaSetu",
   },
   {
     title: "AuthX",
@@ -52,13 +59,6 @@ const projects = [
     tools: "JavaScript, HTML, CSS, GSAP",
     image: "",
     link: "https://github.com/Vikaumar/GTA-VI",
-  },
-  {
-    title: "Edura",
-    category: "Gamified Learning Platform",
-    tools: "Spring Boot, HTML/CSS/JS, Gemini API",
-    image: "",
-    link: "https://github.com/Vikaumar/Edura.LearningApp",
   },
 ];
 
