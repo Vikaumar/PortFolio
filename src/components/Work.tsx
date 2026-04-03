@@ -57,7 +57,7 @@ const projects = [
     title: "GTA VI Landing",
     category: "Frontend Clone",
     tools: "JavaScript, HTML, CSS, GSAP",
-    image: "",
+    image: "/images/projects/gtavi.png",
     link: "https://github.com/Vikaumar/GTA-VI",
   },
 ];
