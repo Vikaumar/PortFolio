@@ -15,14 +15,14 @@ const projects = [
     title: "Delicia",
     category: "Food Delivery Platform",
     tools: "JavaScript, React, Node.js/Express, MongoDB",
-    image: "/images/projects/delicia.png",
+    image: "/images/projects/delicia.png?v=2",
     link: "https://github.com/Vikaumar/Delicia",
   },
   {
     title: "Prescripto",
     category: "Full-Stack Web App",
     tools: "JavaScript, Node.js, React",
-    image: "/images/projects/prescripto.png",
+    image: "/images/projects/prescripto.png?v=2",
     link: "https://github.com/Vikaumar/Prescripto",
   },
   {
