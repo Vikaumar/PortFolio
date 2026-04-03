@@ -13,6 +13,7 @@ import {
 
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
+  // Original WebP textures
   "/images/react2.webp",
   "/images/next2.webp",
   "/images/node2.webp",
@@ -21,12 +22,25 @@ const imageUrls = [
   "/images/mysql.webp",
   "/images/typescript.webp",
   "/images/javascript.webp",
+  // New SVG tech icons
+  "/images/docker.svg",
+  "/images/redis.svg",
+  "/images/git.svg",
+  "/images/python.svg",
+  "/images/cpp.svg",
+  "/images/spring.svg",
+  "/images/postgresql.svg",
+  "/images/redux.svg",
+  "/images/css3.svg",
+  "/images/html5.svg",
+  "/images/vite.svg",
+  "/images/kafka.svg",
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 
 const sphereGeometry = new THREE.SphereGeometry(1, 28, 28);
 
-const spheres = [...Array(30)].map(() => ({
+const spheres = [...Array(20)].map(() => ({
   scale: [0.7, 1, 0.8, 1, 1][Math.floor(Math.random() * 5)],
 }));
 
