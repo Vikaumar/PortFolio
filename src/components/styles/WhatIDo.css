@@ -26,29 +26,6 @@
   margin-bottom: 100px;
 }
 
-.techstack {
-  position: absolute;
-  top: 15%;
-  height: 80%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.techstack h2 {
-  font-size: clamp(30px, 5vw, 60px);
-  text-align: center;
-  margin: 0;
-  letter-spacing: 2px;
-  opacity: 0.9;
-  font-weight: 600;
-}
-.tech-canvas {
-  height: calc(100% - 60px) !important;
-  width: 100% !important;
-  margin-top: auto;
-}
-
 .hat-h2 {
   font-style: italic;
 }
