@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import HoverLinks from "./HoverLinks";
 import { gsap } from "gsap";
@@ -11,6 +11,8 @@ gsap.registerPlugin(ScrollTrigger);
 export let lenis: Lenis | null = null;
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   useEffect(() => {
     // Remove the smooth-wrapper/smooth-content height locking (was needed for ScrollSmoother)
     const wrapper = document.getElementById("smooth-wrapper");
@@ -62,6 +64,10 @@ const Navbar = () => {
     };
   }, []);
 
+  const handleNavClick = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <>
       <div className="header">
@@ -75,7 +81,9 @@ const Navbar = () => {
         >
           vikas11ku22@gmail.com
         </a>
-        <ul>
+
+        {/* Desktop nav links */}
+        <ul className="nav-desktop">
           <li>
             <a data-href="#about" href="#about">
               <HoverLinks text="ABOUT" />
@@ -90,6 +98,33 @@ const Navbar = () => {
             <a data-href="#contact" href="#contact">
               <HoverLinks text="CONTACT" />
             </a>
+          </li>
+        </ul>
+
+        {/* Hamburger button (mobile only) */}
+        <button
+          className={`hamburger ${menuOpen ? "hamburger-active" : ""}`}
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Toggle menu"
+          data-cursor="disable"
+        >
+          <span className="hamburger-line"></span>
+          <span className="hamburger-line"></span>
+          <span className="hamburger-line"></span>
+        </button>
+      </div>
+
+      {/* Mobile fullscreen overlay menu */}
+      <div className={`mobile-nav-overlay ${menuOpen ? "mobile-nav-open" : ""}`}>
+        <ul className="mobile-nav-links">
+          <li>
+            <a href="#about" onClick={handleNavClick}>ABOUT</a>
+          </li>
+          <li>
+            <a href="#work" onClick={handleNavClick}>WORK</a>
+          </li>
+          <li>
+            <a href="#contact" onClick={handleNavClick}>CONTACT</a>
           </li>
         </ul>
       </div>
