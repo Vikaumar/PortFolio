@@ -33,32 +33,18 @@ const projects = [
     link: "https://github.com/Vikaumar/VidhyaSetu",
   },
   {
-    title: "AuthX",
-    category: "Authentication System",
-    tools: "JavaScript, Node.js, JWT, PostgreSQL, Redis",
-    image: "/images/projects/authx.png",
-    link: "https://github.com/Vikaumar/AuthX",
-  },
-  {
-    title: "HeartStrokeML",
-    category: "Machine Learning",
-    tools: "Python, Jupyter Notebook, Scikit-learn",
-    image: "/images/projects/heartstroke.png",
-    link: "https://github.com/Vikaumar/HeartStrokeML",
-  },
-  {
-    title: "Invoice to Excel",
-    category: "Automation Tool",
-    tools: "TypeScript, Next.js",
-    image: "/images/projects/invoice.png",
-    link: "https://github.com/Vikaumar/invoice-to-excel",
-  },
-  {
     title: "GTA VI Landing",
     category: "Frontend Clone",
     tools: "JavaScript, HTML, CSS, GSAP",
     image: "/images/projects/gtavi.png",
     link: "https://github.com/Vikaumar/GTA-VI",
+  },
+  {
+    title: "AuthX",
+    category: "Authentication System",
+    tools: "JavaScript, Node.js, JWT, PostgreSQL, Redis",
+    image: "/images/projects/authx.png",
+    link: "https://github.com/Vikaumar/AuthX",
   },
 ];
 
