@@ -126,6 +126,19 @@
   box-shadow: 0 0 12px rgba(94, 234, 212, 0.2);
 }
 
+.carousel-live-link {
+  margin-left: 10px;
+  background: var(--accentColor);
+  color: #0a0e17;
+  font-weight: 600;
+  border-color: var(--accentColor);
+}
+.carousel-live-link:hover {
+  color: #0a0e17;
+  background: #7df5e2;
+  box-shadow: 0 0 16px rgba(94, 234, 212, 0.4);
+}
+
 .carousel-image-wrapper {
   flex: 1;
   display: flex;
