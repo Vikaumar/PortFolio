@@ -22,7 +22,7 @@ const projects = [
     title: "Prescripto",
     category: "Full-Stack Web App",
     tools: "JavaScript, Node.js, React",
-    image: "/images/projects/prescripto.png?v=2",
+    image: "/images/projects/prescripto.png?v=3",
     link: "https://github.com/Vikaumar/Prescripto",
     liveUrl: "https://prescripto-peach-theta.vercel.app/",
   },
