@@ -24,6 +24,7 @@ const projects = [
     tools: "JavaScript, Node.js, React",
     image: "/images/projects/prescripto.png?v=2",
     link: "https://github.com/Vikaumar/Prescripto",
+    liveUrl: "https://prescripto-peach-theta.vercel.app/",
   },
   {
     title: "VidhyaSetu",
@@ -132,6 +133,16 @@ const Work = () => {
                             data-cursor="disable"
                           >
                             View on GitHub →
+                          </a>
+                        )}
+                        {(project as any).liveUrl && (
+                          <a
+                            href={(project as any).liveUrl}
+                            target="_blank"
+                            className="carousel-github-link carousel-live-link"
+                            data-cursor="disable"
+                          >
+                            Live Demo →
                           </a>
                         )}
                       </div>
