@@ -19,10 +19,8 @@
 
 ## ⚡ Portfolio Showcase
 
-![Vikas Kumar - Portfolio Preview](public/images/preview.png)
+![Vikas Kumar - Portfolio Preview](public/images/og-preview.png)
 
-> [!IMPORTANT]
-> **Showcasing Your Work**: Replace `public/images/preview.png` with your latest personalized screenshot to keep your portfolio up to date.
 
 ## 🛠️ Tech Stack
 
@@ -43,7 +41,6 @@ This portfolio leverages the latest web technologies for a premium feel:
 - **Dynamic Headers**: Clean navigation with quick access to About, Work, and Contact sections.
 - **Direct Contact**: Integrated email access at `vikas11ku22@gmail.com`.
 - **Social Integration**: One-click access to my GitHub and LinkedIn profiles.
-- **Resume Access**: Easily viewable and downloadable resume directly from the landing page.
 
 ## 🚀 Getting Started
 
