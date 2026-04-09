@@ -1,13 +1,28 @@
-# Vikas Kumar - 3D Animated Portfolio
+<div align="center">
 
-Welcome to my personal 3D animated developer portfolio! This project is a comprehensive showcase of my skills, projects, and professional background as a **Full-Stack Developer Engineer**. It features an immersive 3D experience, smooth transitions, and a modern aesthetic.
+```
+██████╗  ██████╗ ██████╗ ████████╗███████╗ ██████╗ ██╗     ██╗ ██████╗
+██╔══██╗██╔═══██╗██╔══██╗╚══██╔══╝██╔════╝██╔═══██╗██║     ██║██╔═══██╗
+██████╔╝██║   ██║██████╔╝   ██║   █████╗  ██║   ██║██║     ██║██║   ██║
+██╔═══╝ ██║   ██║██╔══██╗   ██║   ██╔══╝  ██║   ██║██║     ██║██║   ██║
+██║     ╚██████╔╝██║  ██║   ██║   ██║     ╚██████╔╝███████╗██║╚██████╔╝
+╚═╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝      ╚═════╝ ╚══════╝╚═╝ ╚═════╝
+```
 
-## ⚡ Preview
+# ✦ Vikas Kumar Portfolio ✦
 
-![Portfolio Preview](public/images/preview.png)
+**A slick, 3D animated portfolio — built with React, GSAP & Three.js**
 
-> [!TIP]
-> To update this preview, save your portfolio screenshot as `public/images/preview.png`.
+</div>
+
+---
+
+## ⚡ Portfolio Showcase
+
+![Vikas Kumar - Portfolio Preview](public/images/preview.png)
+
+> [!IMPORTANT]
+> **Showcasing Your Work**: Replace `public/images/preview.png` with your latest personalized screenshot to keep your portfolio up to date.
 
 ## 🛠️ Tech Stack
 
