@@ -17,7 +17,7 @@
 
 ---
 
-## ⚡ Portfolio Showcase
+## ⚡ Portfolio 
 
 ![Vikas Kumar - Portfolio Preview](public/images/og-preview.png)
 
