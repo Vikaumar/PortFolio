@@ -43,7 +43,17 @@
   border: 1px solid rgba(94, 234, 212, 0.15);
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(8px);
   min-width: 100px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.stat-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(94, 234, 212, 0.15);
+  border-color: rgba(94, 234, 212, 0.4);
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .stat-item h4 {

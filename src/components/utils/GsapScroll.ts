@@ -188,4 +188,82 @@ export function setAllTimeline() {
       0
     );
   }
+
+  // Work section reveal
+  gsap.fromTo(
+    ".work-section h2",
+    { opacity: 0, y: 50 },
+    {
+      scrollTrigger: {
+        trigger: ".work-section",
+        start: "top 80%",
+      },
+      opacity: 1,
+      y: 0,
+      duration: 0.8,
+      ease: "power2.out"
+    }
+  );
+
+  gsap.fromTo(
+    ".carousel-track-container",
+    { opacity: 0, y: 50 },
+    {
+      scrollTrigger: {
+        trigger: ".carousel-track-container",
+        start: "top 85%",
+      },
+      opacity: 1,
+      y: 0,
+      duration: 1,
+      ease: "power2.out"
+    }
+  );
+
+  // Contact section reveal
+  gsap.fromTo(
+    ".contact-heading",
+    { opacity: 0, y: 50 },
+    {
+      scrollTrigger: {
+        trigger: ".contact-section",
+        start: "top 80%",
+      },
+      opacity: 1,
+      y: 0,
+      duration: 0.8,
+      ease: "power2.out"
+    }
+  );
+
+  gsap.fromTo(
+    ".contact-divider",
+    { width: "0%" },
+    {
+      scrollTrigger: {
+        trigger: ".contact-section",
+        start: "top 80%",
+      },
+      width: "100%",
+      duration: 1.2,
+      ease: "power2.inOut",
+      delay: 0.2
+    }
+  );
+
+  gsap.fromTo(
+    ".contact-box",
+    { opacity: 0, y: 30 },
+    {
+      scrollTrigger: {
+        trigger: ".contact-flex",
+        start: "top 85%",
+      },
+      opacity: 1,
+      y: 0,
+      stagger: 0.15,
+      duration: 0.8,
+      ease: "power2.out"
+    }
+  );
 }

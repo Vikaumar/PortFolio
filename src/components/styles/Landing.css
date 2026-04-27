@@ -196,6 +196,23 @@
    font-weight: 200; 
 } */
 
+.typing-cursor {
+  font-weight: 200;
+  color: var(--accentColor);
+  animation: blink 1s step-end infinite;
+  margin-left: 2px;
+  position: absolute;
+}
+
+.typewriter-text {
+  text-shadow: 0 0 20px rgba(94, 234, 212, 0.4);
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
 .landing-info {
   position: absolute;
   right: 50%;
