@@ -168,47 +168,6 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DEVOPS & TOOLS</h3>
-              <h4>Shipping & Scaling</h4>
-              <p>
-                Version control, containerization, real-time messaging, and
-                cloud deployment — the tools that take code from laptop to production.
-              </p>
-              <h5>Skillset & tools</h5>
-              <div className="what-content-flex">
-                <div className="what-tags">Git</div>
-                <div className="what-tags">Docker</div>
-                <div className="what-tags">Nginx</div>
-                <div className="what-tags">CI/CD</div>
-                <div className="what-tags">AWS</div>
-                <div className="what-tags">Kafka</div>
-                <div className="what-tags">Redis</div>
-                <div className="what-tags">WebSockets</div>
-                <div className="what-tags">Vercel</div>
-                <div className="what-tags">Postman</div>
-              </div>
-              <div className="what-arrow"></div>
-            </div>
-          </div>
-          <div
-            className="what-content what-noTouch"
-            ref={(el) => setRef(el, 3)}
-          >
-            <div className="what-border1">
-              <svg height="100%">
-                <line
-                  x1="0"
-                  y1="100%"
-                  x2="100%"
-                  y2="100%"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeDasharray="6,6"
-                />
-              </svg>
-            </div>
-            <div className="what-corner"></div>
-            <div className="what-content-in">
               <h3>AI & ML</h3>
               <h4>Intelligent Solutions</h4>
               <p>
