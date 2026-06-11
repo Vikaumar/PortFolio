@@ -33,7 +33,7 @@ const Career = () => {
               <h3>Aug 2023 - Present</h3>
             </div>
             <p>
-              Pursuing Bachelor of Technology with a CGPA of 7.24 (Till 5th Sem). Core subjects: Data Structures, Operating Systems, DBMS.
+              Pursuing Bachelor of Technology with a CGPA of 7.38 (Till 5th Sem). Core subjects: Data Structures, Operating Systems, DBMS.
             </p>
           </div>
           <div className="career-info-box">
