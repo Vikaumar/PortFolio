@@ -33,7 +33,7 @@ const Career = () => {
               <h3>Aug 2023 - Present</h3>
             </div>
             <p>
-              Pursuing Bachelor of Technology with a CGPA of 7.27. Core subjects: Data Structures, Operating Systems, DBMS.
+              Pursuing Bachelor of Technology with a CGPA of 7.24 (Till 5th Sem). Core subjects: Data Structures, Operating Systems, DBMS.
             </p>
           </div>
           <div className="career-info-box">
@@ -48,18 +48,51 @@ const Career = () => {
               Secured 1st place among 6,400+ participating teams. Demonstrated exceptional problem-solving and software development skills.
             </p>
           </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Tech Lead</h4>
-                <h5>Paryawan Sakti</h5>
-              </div>
-              <h3>Aug 2025 - Present</h3>
+        </div>
+
+        {/* Certifications */}
+        <h2 className="career-sub-heading">
+          Certifications
+        </h2>
+        <div className="certifications-grid">
+          <a
+            href="https://drive.google.com/file/d/1LTUdngu-Ur495BqwBkNxQVDCwM1n5vzy/view?usp=sharing"
+            target="_blank"
+            className="cert-card"
+            data-cursor="disable"
+          >
+            <div className="cert-icon">🤖</div>
+            <div className="cert-info">
+              <h4>Artificial Intelligence</h4>
+              <p>Simplilearn SkillUp</p>
+              <span className="cert-id">ID: 9093379</span>
             </div>
-            <p>
-              Spearheaded 50+ students, demonstrating strong technical leadership across 10+ full-stack and system design sessions; led 20+ interactive discussions, and fostered a high-engagement, collaborative peer learning culture.
-            </p>
-          </div>
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1QINoc9cUtDm2jm0blXRHPjV821lhkOP0/view?usp=sharing"
+            target="_blank"
+            className="cert-card"
+            data-cursor="disable"
+          >
+            <div className="cert-icon">📊</div>
+            <div className="cert-info">
+              <h4>Power BI: Dynamics of Data Analytics</h4>
+              <p>RCAT & IIIT Kota</p>
+              <span className="cert-id">ID: 9263a2a3</span>
+            </div>
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1JmvijuQgjw9TesbLDoTDgGubJIUm1e6X/view?usp=sharing"
+            target="_blank"
+            className="cert-card"
+            data-cursor="disable"
+          >
+            <div className="cert-icon">🧠</div>
+            <div className="cert-info">
+              <h4>OpenAI Academy × NxtWave Buildathon</h4>
+              <p>Regional Buildathon — Rajasthan</p>
+            </div>
+          </a>
         </div>
       </div>
     </div>

@@ -35,7 +35,7 @@ const Contact = () => {
             </MagneticButton>
             <MagneticButton intensity={0.2}>
               <a
-                href="https://www.linkedin.com/in/vikas-kumar-536bb428a"
+                href="https://www.linkedin.com/in/vikas-kumar-iiitk"
                 target="_blank"
                 data-cursor="disable"
                 className="contact-social"

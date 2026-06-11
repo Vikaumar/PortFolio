@@ -56,11 +56,11 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          I'm a Full-Stack Developer and B.Tech (CSE) student at IIIT Kota, driven by a love for building products that solve real problems. From winning HackToCrack 2.0 (1st among 6,400+ teams) to grinding 600+ LeetCode problems, I thrive at the intersection of clean architecture and competitive problem-solving. I build with the MERN stack, Spring Boot, and Next.js — and I'm always shipping.
+          I'm a Full-Stack Developer and B.Tech (CSE) student at IIIT Kota, driven by a love for building products that solve real problems. From winning HackToCrack 2.0 (1st among 6,400+ teams) to grinding 650+ LeetCode problems, I thrive at the intersection of clean architecture and competitive problem-solving. I build with the MERN stack, Spring Boot, and Next.js — and I'm always shipping.
         </p>
         <div className="about-stats">
           <StatItem end={8} suffix="+" label="Projects Built" />
-          <StatItem end={600} suffix="+" label="LeetCode Problems" />
+          <StatItem end={650} suffix="+" label="LeetCode Problems" />
           <StatItem end={1} prefix="#" label="HackToCrack 2.0" />
           <StatItem end={3} suffix="★" label="CodeChef" />
         </div>

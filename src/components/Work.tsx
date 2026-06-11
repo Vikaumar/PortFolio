@@ -7,16 +7,18 @@ const projects = [
   {
     title: "Edura",
     category: "Gamified Learning Platform",
-    tools: "Spring Boot, HTML/CSS/JS, Gemini API",
+    tools: "Spring Boot, HTML/CSS/JS, Chart.js, Gemini API",
     image: "/images/projects/edura.png",
     link: "https://github.com/Vikaumar/Edura.LearningApp",
+    liveUrl: "https://earnest-hamster-c54670.netlify.app/Landing/Landing2.html",
   },
   {
     title: "Delicia",
-    category: "Food Delivery Platform",
-    tools: "JavaScript, React, Node.js/Express, MongoDB",
+    category: "Real-Time Food Delivery Platform",
+    tools: "React, Node.js/Express, MongoDB, Stripe, Kafka, WebSocket",
     image: "/images/projects/delicia.png?v=2",
     link: "https://github.com/Vikaumar/Delicia",
+    liveUrl: "https://delicia-frontend.vercel.app/",
   },
   {
     title: "Prescripto",
@@ -28,8 +30,8 @@ const projects = [
   },
   {
     title: "VidhyaSetu",
-    category: "Smart Education Platform",
-    tools: "MERN, OpenAI, Python, JWT",
+    category: "AI-Powered Smart Education Platform",
+    tools: "MERN, OpenAI, Python, JWT, Multer, pdf-parse",
     image: "/images/projects/vidhyasetu.png",
     link: "https://github.com/Vikaumar/VidhyaSetu",
   },
@@ -135,9 +137,9 @@ const Work = () => {
                             View on GitHub →
                           </a>
                         )}
-                        {(project as any).liveUrl && (
+                        {project.liveUrl && (
                           <a
-                            href={(project as any).liveUrl}
+                            href={project.liveUrl}
                             target="_blank"
                             className="carousel-github-link carousel-live-link"
                             data-cursor="disable"
