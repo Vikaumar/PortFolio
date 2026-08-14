@@ -13,6 +13,13 @@ const projects = [
     liveUrl: "https://earnest-hamster-c54670.netlify.app/Landing/Landing2.html",
   },
   {
+    title: "Milaap",
+    category: "AI Biometric Reunion Platform",
+    tools: "OpenCV, Python, Django, GeoIP, Render",
+    image: "", // Placeholder will be shown
+    link: "https://github.com/Vikaumar/Milaap",
+  },
+  {
     title: "Delicia",
     category: "Real-Time Food Delivery Platform",
     tools: "React, Node.js/Express, MongoDB, Stripe, Kafka, WebSocket",

@@ -102,6 +102,8 @@ const WhatIDo = () => {
                 <div className="what-tags">Redux</div>
                 <div className="what-tags">HTML5</div>
                 <div className="what-tags">CSS3</div>
+                <div className="what-tags">Chart.js</div>
+                <div className="what-tags">Tailwind CSS</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -134,17 +136,20 @@ const WhatIDo = () => {
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">Node.js</div>
-                <div className="what-tags">Express.js</div>
+                <div className="what-tags">Express</div>
+                <div className="what-tags">Spring Boot</div>
+                <div className="what-tags">Django</div>
                 <div className="what-tags">FastAPI</div>
                 <div className="what-tags">MongoDB</div>
                 <div className="what-tags">PostgreSQL</div>
                 <div className="what-tags">MySQL</div>
-                <div className="what-tags">REST APIs</div>
-                <div className="what-tags">GraphQL</div>
-                <div className="what-tags">Socket.IO</div>
+                <div className="what-tags">Redis</div>
+                <div className="what-tags">WebSockets</div>
+                <div className="what-tags">Apache Kafka</div>
                 <div className="what-tags">Python</div>
                 <div className="what-tags">C++</div>
                 <div className="what-tags">Java</div>
+                <div className="what-tags">Bash</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -176,9 +181,12 @@ const WhatIDo = () => {
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
+                <div className="what-tags">OpenCV</div>
                 <div className="what-tags">OpenAI API</div>
+                <div className="what-tags">Gemini API</div>
                 <div className="what-tags">Hugging Face</div>
                 <div className="what-tags">scikit-learn</div>
+                <div className="what-tags">Prompt Engineering</div>
                 <div className="what-tags">NumPy</div>
                 <div className="what-tags">Pandas</div>
               </div>
